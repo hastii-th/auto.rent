@@ -1,13 +1,64 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "cars": [
+    {
+      "id": "1",
+      "name": "اجاره جنسیس کوپه",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/0b92b21ded5a501cc39b4c19e72f008ebe33405a.jpg",
+      "discount": "۲۰"
+    },
+    {
+      "id": "2",
+      "name": "اجاره تویوتا لندکروز در تهران",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/1a08f90069908b366fd08e49a0f91b7eb3cec531.jpg",
+      "discount": null
+    },
+    {
+      "id": "3",
+      "name": "اجاره بنز E350 سدان",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/4a7ffe378c9c3886955fe6c89c1f19d7ef78eef8.jpg",
+      "discount": "۲۰"
+    },
+     {
+      "id": "4",
+      "name": "اجاره بی ام و 528",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/5048e02f78c4d77e2137d0481411d4e8217d22b5.jpg",
+      "discount": "۲۰"
+    },
+     {
+      "id": "5",
+      "name": "اجاره هیوندای توسان 2014",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/cefad07104c75f17d8545b6abf67b1704d514ab0.jpg",
+      "discount": "۲۰"
+    },
+    {
+      "id": "6",
+      "name": "اجاره بنز sl کروک",
+      "model": "۲۰۱۶",
+      "dailyPrice": "۸,۵۰۰,۰۰۰",
+      "monthlyPrice": "۸,۵۰۰,۰۰۰",
+      "deposit": "۸۰ میلیون تومان",
+      "image": "./src/image/cars/dcd26425822e71dc7581ed172f5324d97ac347fd.jpg",
+      "discount": "۲۰"
+    }
+  ]
 }

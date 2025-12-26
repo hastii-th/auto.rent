@@ -420,7 +420,7 @@
     
     <div class="flex-1 flex flex-col justify-around py-20 z-10">
       
-      <div class="relative flex items-start gap-4 mr-auto group">
+      <div class="relative flex flex-row items-start gap-4 mr-auto group">
         <div class="text-right max-w-[200px]">
           <h3 class="font-bold text-gray-800 text-lg mb-1">
             <span class="text-[#D4A11E]">خودروی</span> خود را انتخاب کنید.
@@ -428,7 +428,7 @@
           <p class="text-gray-400 text-xs leading-5">خودروی مورد نظر خود را، متناسب با درخواست خود انتخاب کنید.</p>
         </div>
         <div class="relative">
-          <span class="absolute -top-12 -right-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #E0E7FF;">۱</span>
+          <span class="absolute -top-12 -left-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #0B2FA6;">۱</span>
           <div class="w-14 h-14 bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center">
             <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" /></svg>
           </div>
@@ -436,7 +436,7 @@
         <div class="absolute top-1/2 -left-32 w-32 border-t-2 border-dashed border-blue-200 hidden lg:block"></div>
       </div>
 
-      <div class="relative flex items-start gap-4 mr-auto mt-40">
+      <div class="relative flex flex-row items-start gap-4 mr-auto mt-40">
         <div class="text-right max-w-[200px]">
           <h3 class="font-bold text-gray-800 text-lg mb-1">
             <span class="text-[#D4A11E]">هزینه</span> اجاره را پرداخت کنید.
@@ -444,7 +444,7 @@
           <p class="text-gray-400 text-xs leading-5">می‌توانید از طریق کیف پول آنلاین یا کارت‌های عضو شبکه شتاب اقدام کنید.</p>
         </div>
         <div class="relative">
-          <span class="absolute -top-12 -right-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #E0E7FF;">۳</span>
+          <span class="absolute -top-12 -left-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #0B2FA6;">۳</span>
           <div class="w-14 h-14 bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center">
             <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>
           </div>
@@ -454,49 +454,61 @@
 
     </div>
 
-    <div class="w-48 relative flex justify-center py-10">
-      <div class="absolute inset-0 flex justify-center">
-        <div class="w-4 bg-yellow-400/20 h-full flex flex-col justify-between py-4">
-          <div class="w-full h-20 bg-yellow-500"></div>
-          <div class="w-full h-20 bg-yellow-500"></div>
-          <div class="w-full h-20 bg-yellow-500"></div>
-        </div>
-      </div>
-      <div class="relative z-20 sticky top-10 h-fit">
-        <img src="./src/image/blue car.png" alt="Car Top View" class="w-40 drop-shadow-2xl " />
-      </div>
+<div class="w-48 relative flex justify-center py-10">
+  <div class="absolute inset-0 flex justify-center">
+    <div class="w-4 bg-yellow-400/20 h-full flex flex-col justify-between py-4">
+      <div class="w-full h-20 bg-yellow-500 rounded-sm"></div>
+      <div class="w-full h-20 bg-yellow-500 rounded-sm"></div>
+      <div class="w-full h-20 bg-yellow-500 rounded-sm"></div>
     </div>
+  </div>
+
+  <div class="relative z-20 sticky top-10 h-fit">
+    
+    <img src="./src/image/blue car.png" alt="Car Top View" class="w-40 drop-shadow-2xl relative z-10" />
+
+    <div class="absolute -top-2 -right-2 w-4 h-4 bg-[#D4A11E] rounded-full border-4 border-white shadow-sm z-30"></div>
+    
+    <div class="absolute -top-2 -left-2 w-4 h-4 bg-[#D4A11E] rounded-full border-4 border-white shadow-sm z-30"></div>
+    
+    <div class="absolute -bottom-2 -right-2 w-4 h-4 bg-[#D4A11E] rounded-full border-4 border-white shadow-sm z-30"></div>
+    
+    <div class="absolute -bottom-2 -left-2 w-4 h-4 bg-[#D4A11E] rounded-full border-4 border-white shadow-sm z-30"></div>
+
+    <div class="absolute -bottom-4 left-0 right-0 h-10 bg-red-500/20 blur-xl rounded-full z-0"></div>
+  </div>
+</div>
 
     <div class="flex-1 flex flex-col justify-around py-20 z-10">
       
-      <div class="relative flex flex-row-reverse items-start gap-4 ml-auto">
-        <div class="text-left max-w-[200px]">
-          <h3 class="font-bold text-gray-800 text-lg mb-1 text-right">
-             <span class="text-[#D4A11E]">تاریخ</span> تحویل را تعیین کنید.
-          </h3>
-          <p class="text-gray-400 text-xs leading-5 text-right">تاریخ موردنظر خود را از تقویم، انتخاب و رزرو کنید.</p>
-        </div>
+      <div class="relative flex flex-row items-start gap-4 ml-auto">
         <div class="relative">
-          <span class="absolute -top-12 -left-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #E0E7FF;">۲</span>
+          <span class="absolute -top-12 -right-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #0B2FA6;">۲</span>
           <div class="w-14 h-14 bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center">
             <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
           </div>
         </div>
+        <div class="text-right max-w-[200px]">
+          <h3 class="font-bold text-gray-800 text-lg mb-1">
+             <span class="text-[#D4A11E]">تاریخ</span> تحویل را تعیین کنید.
+          </h3>
+          <p class="text-gray-400 text-xs leading-5">تاریخ موردنظر خود را از تقویم، انتخاب و رزرو کنید.</p>
+        </div>
         <div class="absolute top-1/2 -right-32 w-32 border-t-2 border-dashed border-blue-200 hidden lg:block"></div>
       </div>
 
-      <div class="relative flex flex-row-reverse items-start gap-4 ml-auto mt-40">
-        <div class="text-left max-w-[200px]">
-          <h3 class="font-bold text-gray-800 text-lg mb-1 text-right">
-            <span class="text-[#D4A11E]">خودرو</span> را دریافت کنید.
-          </h3>
-          <p class="text-gray-400 text-xs leading-5 text-right">در زمان و مکان تعیین شده، خودروی خود را دریافت کنید.</p>
-        </div>
+      <div class="relative flex flex-row items-start gap-4 ml-auto mt-40">
         <div class="relative">
-          <span class="absolute -top-12 -left-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #E0E7FF;">۴</span>
+          <span class="absolute -top-12 -right-4 text-7xl font-black text-transparent stroke-current stroke-1 text-blue-100 opacity-50 select-none" style="-webkit-text-stroke: 2px #0B2FA6;">۴</span>
           <div class="w-14 h-14 bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center">
             <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" /></svg>
           </div>
+        </div>
+        <div class="text-right max-w-[200px]">
+          <h3 class="font-bold text-gray-800 text-lg mb-1">
+            <span class="text-[#D4A11E]">خودرو</span> را دریافت کنید.
+          </h3>
+          <p class="text-gray-400 text-xs leading-5">در زمان و مکان تعیین شده، خودروی خود را دریافت کنید.</p>
         </div>
         <div class="absolute top-1/2 -right-32 w-32 border-t-2 border-dashed border-blue-200 hidden lg:block"></div>
       </div>

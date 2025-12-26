@@ -6,11 +6,11 @@ async function fetchAndRenderCars() {
     const cars = await response.json();
     
     const container = document.getElementById('car-list');
-    container.innerHTML = ''; // پاک کردن لودینگ قبلی
+    container.innerHTML = ''; 
 
     cars.forEach(car => {
       container.innerHTML += `
-        <div class="bg-white rounded-[32px] p-6 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 relative group">
+        <div class="bg-white rounded-[30px] p-6 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 relative group">
           
           ${car.discount ? `
             <div class="absolute top-6 right-6 bg-[#11378F] text-white text-[11px] font-bold px-3 py-1.5 rounded-lg z-10">
